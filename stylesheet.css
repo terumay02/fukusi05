@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+
+*{
+  box-sizing:border-box;
+}
+
+
+
+.container{
+  width:1170px;
+}
+
+header{
+   /*
+  background-color:yellow;
+  */
+  background-image:url(http://www010.upp.so-net.ne.jp/yamanami/image/common/wrap_bg.jpg);
+  height:135px;
+  width:1170px;
+  margin-bottom:5px;
+
+/*  width:1170px;   */
+}
+
+.header-top{
+
+  padding:15px 20px;
+  height:65px;
+}
+
+.header-titles{
+  float:left;
+  width:100%;
+  height:65px;
+}
+
+.header-title{
+  width:230px;
+  /*width:20%;   */
+  /*  なんで20％にしたら崩れるのか？
+   box-sizing:border-box（CSS）定義してるのに　　　*/
+
+  display:inline-block;
+
+}
+
+.top{
+
+}
+
+.top-left{
+  background-color:skyblue;
+ /* height:;  */
+  width:30%;
+  float:left;
+  padding:10px 20px;
+  border:3px solid black;
+  /*border-right:30px solid black;   */
+}
+
+
+.side-menu{
+  float:left;
+  padding:2px;
+  margin-left:30px;
+
+
+}
+
+.top-left img{
+  padding-bottom:1px;
+  height:45px;
+  width:100%;
+  /* width指定してもなぜ横幅が揃わない？　*/
+  float:left;
+  display:inline-block;
+}
+
+.top-right img{
+  height:100%;
+  width:100%;
+  padding:5px 5px;
+  float:left;
+  /*ここは思い通り*/
+}
+
+.top-right{
+  background-color:red;
+  height:300px;
+  width:70%;
+  float:left;
+
+}
+
+.bottom{
+  background-color:green;
+  height:220px;
+  clear:left;
+  border-top:30px solid black;
+  width:1170px;
+
+}
+
+footer{
+  background-color:pink;
+  height:70px;
+  width:1170px;
+  background-image:url(http://www010.upp.so-net.ne.jp/yamanami/image/common/footerin_bg.jpg);
+  clear:left;
+}
+
+.header-top h1{
+  float:left;
+
+}
+
+.header-top p{
+  float:right;
+
+}
+
+
+
+.news-title{
+  text-align:center;
+  margin:20px 200px;
+}
+
+.table-top{
+  margin:2px 200px;
+}
+
+/*ここから下は　about.html作成のためのｃｓｓ */
+
+.about{
+  width:1170px;
+}
+
+.about-left{
+  background-color:yellow;
+  height:615px;
+  width:30%;
+  float:left;
+  border:3px solid red;
+
+
+}
+
+.about-right{
+  background-color:green;
+  height:1000px;
+  width:70%;
+  float:left;
+
+}
+
+.about-side{
+  height:50%;
+}
+
+.top-left{
+  height:50%;
+}
+
+.about-item{
+  display:block;
+  background-color:grey;
+  padding:10px 50px;
+  width:250px;
+  margin-left:30px;
+  margin-bottom:10px;
+
+}
+
+.about-item:hover{
+  opacity:0.6;
+}
+
+.about-right-item:hover{
+  opacity:0.6;
+}
+
+.header-title:hover{
+  opacity:0.8;
+}
+
+.about-side h2{
+  padding:2px 10px;
+}
+
+.about-right-top img{
+    width:70%;
+    height:130px;
+    padding:10px 30px;
+}
+
+.about-right-items{
+  width:70%;
+
+}
+
+.about-right-items li{
+  display:inline-block;
+  width:250px;
+  padding:10px 10px;
+}
+
+
+.about-right-sentense{
+  width:70%;
+  padding:20px 50px;
+}
+
+.about-right-teikan{
+   padding:10px 50px;
+}
+
+.about-right-teikan a{
+   width:70%;
+   padding:5px 50px;
+   display:inline-block;
+}
+
+.about-right-teikan p{
+   width:70%;
+   padding:5px 50px;
+   display:inline-block;
+}
+
+/*
+.about-right-teikan li{
+   width:70%;
+   padding:5px 50px;
+   display:inline-block;
+}
+*/
+
+.about-right-soshiki img{
+    width:70%;
+    height:700px;
+    padding:10px 30px;
+
+}
+
+.comittee{
+  width:70%;
+  padding:20px 50px;
+}
+
+.comittee-list{
+  width:70%;
+  padding:20px 50px;
+/*  border:2px solid red;   */
+  }
+
+  .comittee-list h3{
+    padding:20px 10px;
+    text-decoration:underline;
+  }
+
+   .comittee-list table{
+     border:2px solid grey;
+  }
+
+/*　作成中のための注意書き　　*/
+.about-right h1{
+  font-size:40px;
+  color:red;
+  padding-left:50px;
+}
+
+
+
+
+.table_normal_caption{
+    border-bottom:2px dotted grey;
+}
+
+.table_normal_contents{
+    border-bottom:2px dotted grey;
+}
