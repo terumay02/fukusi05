@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>volunteer-center</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <!-- ここにコードを書いていきましょう -->
+    <header>
+      <div class="container">
+
+      <div class="header-top">
+        <h1><span class="fa fa-twitter"></span>社会福祉法人　甲南町社会福祉協議会</h1>
+        <p>〒585-0014　大阪府南河内郡河南町白木1359-6（河南町役場３階）</p>
+        <br>
+        <p>TEL0721-93-6299 / FAX0721-93-5299</p>
+        <div class="clear"></div>
+      </div>
+
+      <div class="header-titles">
+        <!--<h1>header-titlesの作成中</h1>　-->
+        <!-- コメント　-->
+        <a href="index.html" target="_blank"><img class="header-title" src="http://www010.upp.so-net.ne.jp/yamanami/image/common/gnavi01_off.jpg"></a>
+        <a href="about.html" target="_blank"><img class="header-title" src="http://www010.upp.so-net.ne.jp/yamanami/image/common/gnavi02_off.jpg"></a>
+        <a href="service.html" target="_blank"><img class="header-title" src="http://www010.upp.so-net.ne.jp/yamanami/image/common/gnavi03_off.jpg"></a>
+        <a href="dantai.html" target="_blank"><img class="header-title" src="http://www010.upp.so-net.ne.jp/yamanami/image/common/gnavi04_off.jpg"></a>
+        <a href="link.html" target="_blank"><img class="header-title" src="http://www010.upp.so-net.ne.jp/yamanami/image/common/gnavi05_off.jpg"></a>
+
+      </div>
+      </div>
+
+    </header>
+
+    <div class="top">
+      <div class="container">
+    <!--サイドメニュー  -->
+      <div class="top-left">
+        <a href="member.html" class="side-menu"><img src="http://www010.upp.so-net.ne.jp/yamanami/image/common/sidebar_kaiin.jpg"></a>
+        <a href="bank.html" class="side-menu"><img src="http://www010.upp.so-net.ne.jp/yamanami/image/common/sidebar_ginko.jpg"></a>
+        <a href="donation.html" class="side-menu"><img src="http://www010.upp.so-net.ne.jp/yamanami/image/common/sidebar_bosyu_bokin.jpg"></a>
+        <a href="koho.html" class="side-menu"><img src="http://www010.upp.so-net.ne.jp/yamanami/image/common/sidebar_kouhoushi.jpg"></a>
+        <a href="volunteer-center.html" class="side-menu"><img src="http://www010.upp.so-net.ne.jp/yamanami/image/common/sidebar_volanteercenter.jpg"></a>
+        <a href="blog.html" class="side-menu"><img src="http://www010.upp.so-net.ne.jp/yamanami/image/common/sidebar_blog.jpg"></a>
+      </div>
+
+        <div class="member-top-right">
+          <div class="member-about-right-top">
+          <img src="http://www010.upp.so-net.ne.jp/yamanami/image/common/h2_volunteercenter.jpg">
+
+          <div class="member-sentense">
+            <h3>河南町ボランティアセンター（河南町社会福祉協議会内）</h3>
+
+          <table class="member-table-top">
+        <tr>
+          <td width=120px>開設日</td><td>月曜～金曜日（祝日を除く）午前9時～午後5時30分</td>
+        </tr>
+        <tr>
+          <td width=120px>場所</td><td>大阪府南河内郡河南町大字白木1359-6（河南町役場3階）</td>
+        </tr>
+        <tr>
+           <td width=120px>TEL</td><td>0721-93-6299</td>
+        </tr>
+        <tr>
+           <td width=120px>FAX</td><td>0721-93-5299</td>
+        </tr>
+        <tr>
+           <td width=120px>E-Mail</td><td>yamanami@jt3.so-net.ne.jp</td>
+        </tr>
+        </table>
+
+        <h3>ボランティアセンターってなに？</h3>
+        <p>
+         「これからボランティア活動を始めたいけど、どうしたらいいの？」「こんなボランティアは、いてないかな？」など、ボランティア活動をしたい人とボランティアを探している、必要としている人をつなぐ「つなぎ役」をしています。<br>
+ボランティアセンターは、ボランティア活動参加の啓発やきっかけづくり、活動の支援、講座や研修会などを行い、地域におけるボランティア活動の推進を目的としています。
+        </p><br>
+
+        <h3>ボランティアセンターの仕事って？</h3><br>
+        <h4>ボランティアに関する相談受付</h4> <br>
+        <p>ボランティアに関するさまざまな相談を受け付けています。</p>   <br>
+        <h4>ボランティアの調整（ボランティアコーディネート）</h4> <br>
+        <p>「ボランティア活動したい人」と「ボランティアの協力を必要としている人」とのつなぎ役や支援をしています。</p>   <br>
+        <h4>講座や研修会の開催</h4> <br>
+        <p>ボランティア活動へのきっかけや、ボランティア活動のスキルアップのために講座や研修会を開催しています。</p>   <br>
+        <h4>ボランティアの情報提供</h4> <br>
+        <p>ボランティアに関する情報を収集し、広報紙やホームページ、ちらしなどを使って情報の提供をしています。</p>   <br>
+        <h4>ボランティア保険・市民活動行事保険の受付</h4> <br>
+        <p>安心してボランティア活動が行えるようにボランティア保険やボランティア市民活動行事保険の受け付けをしています。
+          <!--ボランティア保険・市民活動行事保険の内容など詳しくはこちら--></p>   <br>
+        <h4>ボランティアルームの貸し出し</h4> <br>
+        <p>保健福祉センター内にある、ボランティアルームの貸し出しを行っております。<br>
+※貸し出しについては、社協へのボランティアグループ登録が必要です。</p>   <br>
+
+        <h4>河南町ボランティア連絡会の活動支援</h4> <br>
+        <p>河南町ボランティア連絡会の活動など詳しくは<a href="volunteer.html">こちら</a></p>   <br>
+
+        <h4>学童・生徒のボランティア活動普及事業</h4> <br>
+        <p>町内の小・中学校をボランティア協力校として指定し、福祉教育・ボランティア活動の啓発と推進に努め、学童・生徒の福祉意識の向上とともに家庭及び地域社会の啓発を目的としています。事業主体は河南町社協で、事業実施主体は小・中学校です。</p>   <br>
+        <h4>災害ボランティアセンター</h4> <br>
+        <p>もし地震または河川の決壊、土砂災害等により町内で重大な災害が発生した場合、被災者・被災地を主体としながらボランティアの協力を得て、地域の復興につなげていくことを目的としています。</p>   <br><br>
+
+        <a href="http://www010.upp.so-net.ne.jp/yamanami/volunteercenter/documents/kanantyousaigaiborannthiasenta_uneimanyuaru2013612.pdf">河南町災害ボランティアセンター運営マニュアル</a>
+        <br>
+        <a href="http://www010.upp.so-net.ne.jp/yamanami/volunteercenter/documents/kanantyousaigaiboranthiasenta_yousikisyu20130607.pdf">河南町災害ボランティアセンター運営マニュアル　様式集</a>
+        <br>
+        <br>
+        </div>
+      <div class="clear"></div>
+    </div>
+    </div>
+    </div>
+
+        </div>
+    <footer>
+
+    </footer>
+
+  </body>
+</html>
